@@ -67,7 +67,7 @@ public class LoginPage extends JFrame implements ActionListener {
             test= app.getAdminInfo(emailField.getText(),passwordField.getText());
             System.out.println(test);
             
-            if(test==true || test==false){
+            if(test==true){
 
                 /*You can customize the appearance and behavior of the popup notification by using different JOptionPane methods and constants. 
                 For example, you can change the message type 
