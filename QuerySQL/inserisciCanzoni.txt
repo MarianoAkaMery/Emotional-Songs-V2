@@ -1,0 +1,12 @@
+INSERT INTO public."Songs"("Year", "SongID", "Author", "SongName")
+VALUES
+    (2015, 'TRMYDFV128F42511FC' || '-1', 'John Smith', 'Beautiful Day'),
+    (2018, 'TRMYDFV128F42511FC' || '-2', 'Emma Johnson', 'Firefly'),
+    (2019, 'TRMYDFV128F42511FC' || '-3', 'Michael Brown', 'Midnight Serenade'),
+    (2020, 'TRMYDFV128F42511FC' || '-4', 'Sophia Davis', 'Dancing in the Rain'),
+    (2017, 'TRMYDFV128F42511FC' || '-5', 'David Wilson', 'Echoes in the Wind'),
+    (2016, 'TRMYDFV128F42511FC' || '-6', 'Olivia Thompson', 'Whispering Dreams'),
+    (2021, 'TRMYDFV128F42511FC' || '-7', 'William Roberts', 'Golden Sunset'),
+    (2019, 'TRMYDFV128F42511FC' || '-8', 'Emily Moore', 'Enchanted Melody'),
+    (2018, 'TRMYDFV128F42511FC' || '-9', 'Daniel Turner', 'Mystic Journey'),
+    (2022, 'TRMYDFV128F42511FC' || '-10', 'Grace Mitchell', 'Eternal Bliss');
