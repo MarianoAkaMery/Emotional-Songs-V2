@@ -18,6 +18,9 @@ public class Client {
             new Thread(threadClient).start(); // start thread to receive message
 
             cout.println(reply + ": has joined chat-room.");
+
+
+            // per scrivere sul server
             do {
                 String message = (name + " : ");
                 reply = sc.nextLine();
