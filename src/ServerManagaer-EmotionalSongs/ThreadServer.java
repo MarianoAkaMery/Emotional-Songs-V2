@@ -67,4 +67,8 @@ public class ThreadServer extends Thread {
             }
         }
     }
+
+    private void OperazioneUno(){
+        System.out.println("UNO");
+    }
 }
