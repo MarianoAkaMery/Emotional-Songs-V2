@@ -1,38 +1,86 @@
-import java.io.PrintWriter;
-import java.net.Socket;
+import java.io.*;
+import java.net.*;
 import java.util.Scanner;
 
+import javax.sound.midi.MidiDevice.Info;
+
 public class Client {
-    public static void main(String[] args) {
-        String name = "empty";
-        String reply = "empty";
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your name (Please enter your name to join the chat): ");
-        reply = sc.nextLine();
-        name = reply;
+    private Socket socket;
+    private ObjectOutputStream outputStream;
+    private ObjectInputStream inputStream;
 
-        try (Socket socket = new Socket("localhost", 1234)) {
-            PrintWriter cout = new PrintWriter(socket.getOutputStream(), true);
-
-            ThreadClient threadClient = new ThreadClient(socket);
-            new Thread(threadClient).start(); // start thread to receive message
-
-            cout.println(reply + ": has joined chat-room.");
-
-
-            // per scrivere sul server
-            do {
-                String message = (name + " : ");
-                reply = sc.nextLine();
-                if (reply.equals("logout")) {
-                    cout.println("logout");
-                    break;
-                }
-                cout.println(message + reply);
-            } while (!reply.equals("logout"));
-        } catch (Exception e) {
-            System.out.println(e.getStackTrace());
+    public Client(String serverAddress, int serverPort) {
+        try {
+            socket = new Socket(serverAddress, serverPort);
+            outputStream = new ObjectOutputStream(socket.getOutputStream());
+            inputStream = new ObjectInputStream(socket.getInputStream());
+            System.out.println("Connesso al server: " + serverAddress + ":" + serverPort);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        sc.close();
+    }
+
+    public void sendData(Serializable data) {
+        try {
+            outputStream.writeObject(data);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void receiveData() {
+        Thread thread = new Thread(() -> {
+            try {
+                while (true) {
+                    Informazioni data = (Informazioni) inputStream.readObject();
+                    System.out.println("Dato ricevuto dal server: " );
+                    data.display();
+                    
+                }
+            } catch (IOException | ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+        });
+        thread.start();
+    }
+
+    public void start() {
+        receiveData();
+
+        
+        while (true) {
+            
+           boolean flag = true;
+
+            Informazioni info = new Informazioni("ema", 21);
+            sendData(info);
+
+
+            // premo pulsante exit flag = false
+            if (flag == false)
+            break;
+        }
+        close();
+    }
+
+    public void close() {
+        try {
+            if (outputStream != null)
+                outputStream.close();
+            if (inputStream != null)
+                inputStream.close();
+            if (socket != null)
+                socket.close();
+            System.out.println("Connessione chiusa");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        String serverAddress = "localhost";
+        int serverPort = 8080;
+        Client client = new Client(serverAddress, serverPort);
+        client.start();
     }
 }

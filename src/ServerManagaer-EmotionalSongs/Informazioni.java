@@ -1,10 +1,11 @@
 import java.io.Serializable;
 
 public class Informazioni implements Serializable{
+    private static final long serialVersionUID = 1;
+
     private String Nome;
     private int età;
     private boolean verità;
-
     public Informazioni(){}
 
     public Informazioni(String nome,int età){
@@ -36,5 +37,9 @@ public class Informazioni implements Serializable{
         this.verità = verità;
     }
 
-
+    public void display(){
+        System.out.println();
+        System.out.println(Nome + età);
+    }
+   
 }
