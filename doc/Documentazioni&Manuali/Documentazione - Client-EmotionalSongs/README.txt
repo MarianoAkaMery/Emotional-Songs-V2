@@ -1,1 +1,0 @@
-Una volta cliccato uno dei link all'interno dei vari pdf è consigliato ricaricare la pagina per assicurarsi che tutte le immagini e i testi siano stati caricati correttamente.
