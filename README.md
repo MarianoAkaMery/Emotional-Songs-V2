@@ -12,15 +12,12 @@
 <br />
 <div align="center">
 
-  <h3 align="center">SmokingCord</h3>
+  <h3 align="center">EmotionalSongsV2</h3>
 
   <p align="center">
    ciao
     <br />
-    <a href="https://github.com/MarianoAkaMery/EmotionalSongsV2"><strong>Explore the docs »</strong></a>
-    <br />
-    <a href="https://discord.gg/NQd2JpZpFj"><strong>Join the Discord server »</strong></a>
-    <br />
+    <a href="https://sniperaioguides.gitbook.io/emotionalsongsadminmanager-usermanual/"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://github.com/MarianoAkaMery/EmotionalSongsV2">View Demo</a>
     ·
@@ -88,7 +85,7 @@ _Here is an example of the steps to follow to install and build the project loca
    bot = interactions.Client(
     token="XXXXXXXXXXXXXXXXXXX",
    ```
-5. Invite the bot in your server and have fun with it!
+5. Invite the bot to your server and have fun with it!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
