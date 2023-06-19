@@ -75,17 +75,12 @@ _Here is an example of the steps to follow to install and build the project loca
 
 2. Clone the repo
    ```sh
-   git clone [https://github.com/MarianoAkaMery/smoking-cord](https://github.com/MarianoAkaMery/smoking-cord)
+   git clone [https://github.com/MarianoAkaMery/EmotionalSongsV2](https://github.com/MarianoAkaMery/EmotionalSongsV2)
    ```
    
-3. Go to [DiscordDeveloperPortal](https://discord.com/developers/applications) and create your application + bot
+3. Go to pgAdmin, insert test credentials
 
-4. Enter your token key in an `SmokingCord.oy` file in the project root
-   ```sh
-   bot = interactions.Client(
-    token="XXXXXXXXXXXXXXXXXXX",
-   ```
-5. Invite the bot to your server and have fun with it!
+4. Enjoy EmotionalSongs!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
