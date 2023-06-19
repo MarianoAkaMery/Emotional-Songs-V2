@@ -51,11 +51,11 @@
 
 ### Built With
 
-SmokingCord is a discord bot developed in python, libraries and plugins were used to build it:
+EmotionalSongsV2 is a bot developed in Java, libraries and plugins were used to build it:
 
-* [interactions.py](https://github.com/interactions-py)
+* [Javax.Swing](https://docs.oracle.com/javase%2F7%2Fdocs%2Fapi%2F%2F/javax/swing/package-summary.html)
 * [PostgreSQL](https://jdbc.postgresql.org/)
-* [PyMongo](https://pypi.org/project/pymongo/)
+* [JavaAWT](https://www.javatpoint.com/java-awt)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
