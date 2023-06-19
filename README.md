@@ -17,7 +17,7 @@
   <p align="center">
    Con l'applicazione client di EmotionalSongs, gli utenti possono immergersi nella loro passione per la musica, esplorare nuovi orizzonti sonori e connettersi a livello emotivo con le canzoni che ascoltano. Sia che desiderino creare playlist per rilassarsi, riflettere o ballare, l'applicazione offre una piattaforma completa per soddisfare le esigenze musicali degli utenti e arricchire la loro esperienza attraverso l'espressione emotiva.
     <br />
-    <a href="https://sniperaioguides.gitbook.io/emotionalsongsadminmanager-usermanual/"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/MarianoAkaMery/EmotionalSongsV2/tree/main/doc"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://github.com/MarianoAkaMery/EmotionalSongsV2">View Demo</a>
     ·
@@ -95,13 +95,13 @@ Distributed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/MarianoAkaMery/smoking-cord.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/MarianoAkaMery/EmotionalSongsV2.svg?style=for-the-badge
 [contributors-url]: https://github.com/MarianoAkaMery/EmotionalSongsV2/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/MarianoAkaMery/smoking-cord.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/MarianoAkaMery/EmotionalSongsV2.svg?style=for-the-badge
 [forks-url]: https://github.com/MarianoAkaMery/EmotionalSongsV2/network/members
-[stars-shield]: https://img.shields.io/github/stars/MarianoAkaMery/smoking-cord.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/MarianoAkaMery/EmotionalSongsV2.svg?style=for-the-badge
 [stars-url]: https://github.com/MarianoAkaMery/EmotionalSongsV2/stargazers
-[issues-shield]: https://img.shields.io/github/issues/MarianoAkaMery/smoking-cord.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/MarianoAkaMery/EmotionalSongsV2.svg?style=for-the-badge
 [issues-url]: https://github.com/MarianoAkaMery/EmotionalSongsV2/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/salvatore-mariano-librici-0aaab3202/
