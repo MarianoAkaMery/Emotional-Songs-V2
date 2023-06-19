@@ -15,7 +15,7 @@
   <h3 align="center">EmotionalSongsV2</h3>
 
   <p align="center">
-   ciao
+   Con l'applicazione client di EmotionalSongs, gli utenti possono immergersi nella loro passione per la musica, esplorare nuovi orizzonti sonori e connettersi a livello emotivo con le canzoni che ascoltano. Sia che desiderino creare playlist per rilassarsi, riflettere o ballare, l'applicazione offre una piattaforma completa per soddisfare le esigenze musicali degli utenti e arricchire la loro esperienza attraverso l'espressione emotiva.
     <br />
     <a href="https://sniperaioguides.gitbook.io/emotionalsongsadminmanager-usermanual/"><strong>Explore the docs »</strong></a>
     <br />
