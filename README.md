@@ -104,12 +104,12 @@ Distributed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/MarianoAkaMery/smoking-cord.svg?style=for-the-badge
-[contributors-url]: https://github.com/MarianoAkaMery/smoking-cord/graphs/contributors
+[contributors-url]: https://github.com/MarianoAkaMery/EmotionalSongsV2/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/MarianoAkaMery/smoking-cord.svg?style=for-the-badge
-[forks-url]: https://github.com/MarianoAkaMery/smoking-cord/network/members
+[forks-url]: https://github.com/MarianoAkaMery/EmotionalSongsV2/network/members
 [stars-shield]: https://img.shields.io/github/stars/MarianoAkaMery/smoking-cord.svg?style=for-the-badge
-[stars-url]: https://github.com/MarianoAkaMery/smoking-cord/stargazers
+[stars-url]: https://github.com/MarianoAkaMery/EmotionalSongsV2/stargazers
 [issues-shield]: https://img.shields.io/github/issues/MarianoAkaMery/smoking-cord.svg?style=for-the-badge
-[issues-url]: https://github.com/MarianoAkaMery/smoking-cord/issues
+[issues-url]: https://github.com/MarianoAkaMery/EmotionalSongsV2/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/salvatore-mariano-librici-0aaab3202/
