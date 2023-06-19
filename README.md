@@ -39,12 +39,16 @@
 </div>
 
  L'applicazione client di EmotionalSongs offre agli utenti un'esperienza coinvolgente e personalizzata nella gestione e nell'ascolto della loro collezione musicale. Grazie alla sua interfaccia utente intuitiva e alle numerose funzionalità, gli utenti possono esplorare una vasta gamma di canzoni e connettersi a livello emotivo con la musica che ascoltano.
-    Principali caratteristiche dell'applicazione client di EmotionalSongs includono:
-    + Esplorazione musicale: Gli utenti possono navigare attraverso un vasto catalogo di canzoni, organizzate in anno, artista e album. Questa funzionalità consente agli utenti di scoprire nuovi brani e artisti, nonché di trovare facilmente le loro canzoni preferite.
-    + Creazione di playlist: Gli utenti possono creare playlist personalizzate per adattarle ai loro stati d'animo o occasioni speciali. Possono selezionare le canzoni desiderate dalla libreria e organizzarle a proprio piacimento per creare la colonna sonora perfetta per ogni momento.
-    + Inserimento delle emozioni: Gli utenti hanno la possibilità di associare emozioni a ciascuna canzone nella loro libreria. Possono selezionare tra una varietà di emozioni predefinite, come felicità, tristezza, eccitazione, nostalgia e altro ancora. Questa funzionalità consente agli utenti di esprimere e visualizzare le emozioni che una determinata canzone evoca in loro.
-    + Visualizzazione delle emozioni: L'applicazione mostra le emozioni associate a ciascuna canzone nell'interfaccia utente. Gli utenti possono vedere in modo chiaro e immediato quali emozioni sono state associate a una canzone specifica, consentendo loro di creare connessioni più profonde e personali con la musica che ascoltano.
-      Con l'applicazione client di EmotionalSongs, gli utenti possono immergersi nella loro passione per la musica, esplorare nuovi orizzonti sonori e connettersi a livello emotivo con le canzoni che ascoltano. Sia che desiderino creare playlist per rilassarsi, riflettere o ballare, l'applicazione offre una piattaforma completa per soddisfare le esigenze musicali degli utenti e arricchire la loro esperienza attraverso l'espressione emotiva.
+    
+ Principali caratteristiche dell'applicazione client di EmotionalSongs includono:
+    
+   + Esplorazione musicale: Gli utenti possono navigare attraverso un vasto catalogo di canzoni, organizzate in anno, artista e album. Questa funzionalità consente agli utenti di scoprire nuovi brani e artisti, nonché di trovare facilmente le loro canzoni preferite.
+   
+   + Creazione di playlist: Gli utenti possono creare playlist personalizzate per adattarle ai loro stati d'animo o occasioni speciali. Possono selezionare le canzoni desiderate dalla libreria e organizzarle a proprio piacimento per creare la colonna sonora perfetta per ogni momento.
+   
+   + Inserimento delle emozioni: Gli utenti hanno la possibilità di associare emozioni a ciascuna canzone nella loro libreria. Possono selezionare tra una varietà di emozioni predefinite, come felicità, tristezza, eccitazione, nostalgia e altro ancora. Questa funzionalità consente agli utenti di esprimere e visualizzare le emozioni che una determinata            canzone evoca in loro.
+   
+   + Visualizzazione delle emozioni: L'applicazione mostra le emozioni associate a ciascuna canzone nell'interfaccia utente. Gli utenti possono vedere in modo chiaro e immediato quali emozioni sono state associate a una canzone specifica, consentendo loro di creare connessioni più profonde e personali con la musica che ascoltano.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
