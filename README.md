@@ -64,14 +64,14 @@ EmotionalSongsV2 is a bot developed in Java, libraries and plugins were used to 
 ### Prerequisites
 
 Here is a short list of the requirements you must meet in order to compile the project locally:
-* Python Installed
-* Install all the libraries in [requirements.txt](https://github.com/MarianoAkaMery/smoking-cord/blob/main/requirements.txt)
+* JavaSDK Installed
+* Install PostgreSQL & [pgAdmin](https://www.pgadmin.org/download/pgadmin-4-windows/) in order to setup your database correctly
 
 ### Installation
 
 _Here is an example of the steps to follow to install and build the project locally_:
 
-1. Create an account on [MongoDB](https://www.mongodb.com/it-it) and setup your free databases
+1. Create a database following the schemas [Here](https://github.com/MarianoAkaMery/EmotionalSongsV2/tree/main/doc/Documentazioni%26Manuali/Documentazione%20-%20Database)
 
 2. Clone the repo
    ```sh
