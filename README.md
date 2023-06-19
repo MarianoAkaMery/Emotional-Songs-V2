@@ -33,8 +33,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align="center">
-  <a href="https://github.com/MarianoAkaMery/smoking-cord">
-    <img src="mockup.png" alt="Logo">
+  <a href="https://github.com/MarianoAkaMery/EmotionalSongsV2">
+    <img src="EmotionalSongsLogo.png" alt="Logo">
   </a>
 </div>
 
@@ -53,18 +53,13 @@
 SmokingCord is a discord bot developed in python, libraries and plugins were used to build it:
 
 * [interactions.py](https://github.com/interactions-py)
-* [MongoDB](https://www.mongodb.com/it-it)
+* [PostgreSQL](https://jdbc.postgresql.org/)
 * [PyMongo](https://pypi.org/project/pymongo/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## Getting Started
-
-To simply add the bot to your server, you can easily click [Here](https://discord.com/api/oauth2/authorize?client_id=1076534348041424936&permissions=8&scope=bot%20applications.commands). 
-If, on the other hand, you want to install the project locally in your work environment, you have to meet some prerequisites.
-
 ### Prerequisites
 
 Here is a short list of the requirements you must meet in order to compile the project locally:
